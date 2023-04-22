@@ -5,4 +5,5 @@ const filePath = join(homedir(), "./weather_data.json");
 
 export function saveKeyValue(key, value) {
   console.log(basename(filePath));
+  console.log("123");
 }
