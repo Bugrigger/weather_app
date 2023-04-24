@@ -1,6 +1,5 @@
-import https from "https";
-import { TOKEN_DICTIONARY, getKeyValue } from "./storage.service.js";
 import axios from "axios";
+import { TOKEN_DICTIONARY, getKeyValue } from "./storage.service.js";
 
 export async function getWeather(city) {
   const token = await getKeyValue(TOKEN_DICTIONARY.token);

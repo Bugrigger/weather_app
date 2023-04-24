@@ -1,11 +1,11 @@
 {
-  "name": "weather_app",
+  "name": "weather_orion_app",
   "version": "1.0.0",
   "description": "weather",
   "type": "module",
   "main": "weather.js",
   "bin": {
-    "weather": "./weather.js"
+    "weather": "weather.js"
   },
   "scripts": {
     "start": "node weather.js",
