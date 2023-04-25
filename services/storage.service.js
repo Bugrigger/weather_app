@@ -1,8 +1,9 @@
+import { join } from "path";
 import { homedir } from "os";
-import { join, basename } from "path";
 import { promises } from "fs";
 
 const filePath = join(homedir(), "./weather_data.json");
+
 export const TOKEN_DICTIONARY = {
   token: "token",
   city: "city",
